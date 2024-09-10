@@ -1,7 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 .frame {
   position: relative;
   width: 412px;
   height: 825px;
+  border: 2px solid var(--collection-1-neutral-grey600);
+  padding: 24px;
+  border-radius: 8px;
 }
 
 .frame .text-wrapper {
